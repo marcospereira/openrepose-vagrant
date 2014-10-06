@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
-function makes_nginx_dir_writeable() {
+function makes_dir_writeable() {
   sudo chmod -R 777 /usr/share/nginx/html
+  sudo chmod -R 777 /etc/repose
 }
 
 function configure_repositories() {
@@ -24,4 +25,4 @@ function install_nginx() {
 configure_repositories
 install_repose
 install_nginx
-makes_nginx_dir_writeable
+makes_dir_writeable
