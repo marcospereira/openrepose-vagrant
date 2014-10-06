@@ -6,4 +6,7 @@
         <identity-service username="auth" password="admin_password" uri="AUTH_ENDPOINT" />
         <client-mapping id-regex=".*\?.*USERNAME_QUERY_PARAM=(.+)&amp;?.*" />
     </openstack-auth>
+    <white-list>
+        <uri-pattern uri-regex="/people\.json$" />
+    </white-list>
 </client-auth>
