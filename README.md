@@ -17,6 +17,5 @@ make setup
 Check it out!
 
 ```bash
-curl -i -v http://localhost:8880/people.json # nginx is ok
-curl -i -v -H 'x-pp-user: someuser' http://localhost:8888/people.json # proxied by repose
+make check
 ```
