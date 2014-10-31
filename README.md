@@ -5,6 +5,7 @@ A simple Vagrant configuration to test [Open Repose](http://openrepose.org/) API
 ## Requirements
 
 1. [Vagrant](https://www.vagrantup.com/)
+2. [wrk](https://github.com/wg/wrk)
 
 ## Getting Started
 
